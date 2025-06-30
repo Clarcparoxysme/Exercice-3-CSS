@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8fc;
+  color: #4b0082;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #8000d0;
+}
+
+form.contact-form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #f2e6ff;
+  padding: 1.5rem;
+  border: 3px solid #a64dff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 5px rgba(128, 0, 208, 0.4);
+  position: relative;
+}
+
+fieldset {
+  border: 2px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #ebd6ff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 5px rgba(128, 0, 208, 0.4);
+  position:relative;
+  
+}
+
+legend {
+  font-weight: bold;
+  color:#8000d0;
+  font-size: 1.1rem;
+  padding: 0 0.5rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccccff;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.civilite label {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #8000d0;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5f00a0;
+}
+
+.return-home {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.return-home a {
+  background-color: #8000d0;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.return-home a:hover {
+  background-color: #5f00a0;
+}
+
+.note {
+  font-size: 0.85rem;
+  text-align: left;
+  margin-top: 1rem;
+  color: #555;
+}
